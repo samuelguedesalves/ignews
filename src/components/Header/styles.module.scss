@@ -2,7 +2,7 @@
   width: 100%;
 
   height: 5rem;
-  border-bottom: 1px solid var(--gray-700);
+  border-bottom: 1px solid var(--gray-800);
 }
 
 .headerContent {
@@ -42,7 +42,7 @@
       
       &.active {
         color: var(--white);
-        font-weight: 600;
+        font-weight: bold;
       }
 
       &.active::after {
@@ -56,5 +56,9 @@
         background: var(--yellow-500);
       }
     }
+  }
+
+  button {
+    margin-left: auto;
   }
 }
